@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Updated import for React 18
+import ReactDOM from 'react-dom/client';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
     <div>
-      <h1>Sohaib</h1>
+      <Dashboard />
     </div>
   );
 }
