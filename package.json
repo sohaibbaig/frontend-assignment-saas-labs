@@ -20,10 +20,14 @@
   },
   "homepage": "https://github.com/sohaibbaig/frontend-assignment-saas-labs#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "axios": "^1.7.9",
     "node-sass": "^9.0.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-fontawesome": "^1.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
