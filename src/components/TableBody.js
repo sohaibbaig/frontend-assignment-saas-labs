@@ -7,9 +7,9 @@ const TableBody = ({item}) => {
 
     return (
         <div className="table-row">
-            <div className="table-cell">{serial}</div>
-            <div className="table-cell">{percentage}</div>
-            <div className="table-cell">{amount}</div>
+            <div className="table-cell" role="cell">{serial}</div>
+            <div className="table-cell" role="cell">{percentage}</div>
+            <div className="table-cell" role="cell">{amount}</div>
         </div>
     )
 }

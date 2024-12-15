@@ -19,13 +19,13 @@ const Pagination = ({ totalItems, itemsPerPage, onPageChange }) => {
   const handleLast = () => handlePageChange(totalPages);
 
   return (
-    <div className="pagination">
+    <div className="pagination" role='navigation'>
         <div className="pagination-nav">
             <div className="pagination-button-group">
-                <button onClick={handleFirst} disabled={currentPage === 1}>
+                <button onClick={handleFirst} disabled={currentPage === 1} aria-label="Go to first page" aria-disabled={currentPage === 1}>
                     <FontAwesomeIcon icon={faAngleDoubleLeft} />
                 </button>
-                <button onClick={handlePrevious} disabled={currentPage === 1}>
+                <button onClick={handlePrevious} disabled={currentPage === 1} aria-label="Go to previous page" aria-disabled={currentPage === 1}>
                     <FontAwesomeIcon icon={faAngleLeft} />
                 </button>
             </div>
@@ -33,10 +33,10 @@ const Pagination = ({ totalItems, itemsPerPage, onPageChange }) => {
                 Page {currentPage} of {totalPages}
             </span>
             <div className="pagination-button-group">
-                <button onClick={handleNext} disabled={currentPage === totalPages}>
+                <button onClick={handleNext} disabled={currentPage === totalPages} aria-label="Go to next page" aria-disabled={currentPage === totalPages}>
                     <FontAwesomeIcon icon={faAngleRight} />
                 </button>
-                <button onClick={handleLast} disabled={currentPage === totalPages}>
+                <button onClick={handleLast} disabled={currentPage === totalPages} aria-label="Go to last page" aria-disabled={currentPage === totalPages}>
                     <FontAwesomeIcon icon={faAngleDoubleRight} />
                 </button>
             </div>
