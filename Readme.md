@@ -1,3 +1,36 @@
+### HOW TO RUN THE PROJECT
+
+1. Clone the repo
+2. Open the project directory on your terminal
+3. Run `npm install` to download dependancies
+4. Run `npm run start` to run the project
+5. On your terminal, open `http://localhost:3000/`
+6. Run `npm run test` to run the unit tests.
+
+
+### Node version
+Node verion used is v16.20.0, Npm version 9.2.0
+Please switch to this node version incase you face any compatibility issues.
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 # Frontend Assignment
 
 
